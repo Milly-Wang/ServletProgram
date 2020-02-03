@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ServletPrograms1</display-name>
+ <servlet>
+    <servlet-name>ABC</servlet-name>
+    <servlet-class>com.milly.ServletLifeCycle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ABC</servlet-name>
+    <url-pattern>/milly</url-pattern>
+  </servlet-mapping> 
+  <servlet>
+    <servlet-name>ABC1</servlet-name>
+    <servlet-class>com.milly.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ABC1</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ABC2</servlet-name>
+    <servlet-class>com.milly.Genericservletex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ABC2</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ABC3</servlet-name>
+    <servlet-class>com.milly.Srv1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ABC3</servlet-name>
+    <url-pattern>/Srv1</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ABC4</servlet-name>
+    <servlet-class>com.milly.Srv2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ABC4</servlet-name>
+    <url-pattern>/Srv2</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+  <welcome-file>register.html</welcome-file>
+  </welcome-file-list>
+</web-app>

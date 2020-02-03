@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="Register" method="post">
+Name:<input type="text" name="uname" required="" pattern="[A-Za-z]+" title="Enter only Characters"/><br/><br/>
+Password:<input type="password" name="upass" required="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must Contain atleast one UpperCase,One LowerCase and atleast 7 or more characters"/><br/><br/>
+Emailid:<input type="email" name="umail" required=""/><br/><br/>
+Phoneno:<input type="text" name="uphone" required="" pattern="[6789][0-9]{9}" title="Enter only either 6/7/8/9 as Starting Digits"/><br/><br/>
+Country:
+<select name="uCountry">
+<option>USA</option>
+<option>India</option>
+<option>China</option>
+<option>Others</option>
+</select>
+<br/><br/>
+<input type="submit" value="register"/>
+</form>
+</body>
+</html>
